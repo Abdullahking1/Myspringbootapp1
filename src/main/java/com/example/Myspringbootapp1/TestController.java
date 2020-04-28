@@ -10,6 +10,8 @@ public class TestController {
 
 	@RequestMapping("/welcome.html")
 	public ModelAndView firstPage() {
+		System.out.println("Springboot application");
+
 		return new ModelAndView("welcome");
 	}
 
